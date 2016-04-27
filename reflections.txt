@@ -1,9 +1,12 @@
-1) How long did you spend working on this project?
+1)How does your gem take advantage of Ruby’s metaprogramming capabilities?
+I use define_method to create the colors method.
+
+2) How long did you spend working on this project?
 About 2 hours.
 
-2) What was the most rewarding challenge you conquered?
+3) What was the most rewarding challenge you conquered?
 At first I don't know I should use class_eval / instance_eval or define_method.
 
-3) Where do you still have room to grow?
+4) Where do you still have room to grow?
 Everywhere. Especially Dynamic Methods.
 I don't think I can use it easily.
