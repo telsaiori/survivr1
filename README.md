@@ -14,15 +14,15 @@ String.sample_colors # gives a sample of available colors
 puts "sample".red # returns string in red
 puts "sample".pink # returns string in pink
 ```
-Supported Colors
+#####Supported Colors
 
- red
- green
- yellow
- blue
- pink
- light_blue
- white
- light_grey
- black
+* **red**
+* **green**
+* **yellow**
+* **blue**
+* **pink**
+* **light_blue**
+* **white**
+* **light_grey**
+* **black**
 
