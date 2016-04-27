@@ -15,13 +15,14 @@ puts "sample".red # returns string in red
 puts "sample".pink # returns string in pink
 ```
 Supported Colors
-*red
-*green
-*yellow
-*blue
-*pink
-*light_blue
-*white
-*light_grey
-*black
+
+ red
+ green
+ yellow
+ blue
+ pink
+ light_blue
+ white
+ light_grey
+ black
 
