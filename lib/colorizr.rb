@@ -5,11 +5,11 @@ class String
     @colors.keys
   end
   
-  def self.sample_colors
-    @colors.each do |key, value|
-    puts "This is \e[#{value}m#{key}\e[0m"
-    end
+def self.sample_colors
+  @colors.each do |color, value|
+    puts "This is " + "#{color}".send(color)
   end
+end
   
   def self.create_colors
     @colors.each do |key, value|
@@ -19,7 +19,16 @@ class String
     end
         
   end
-  
+  # def self.create_colors
+  #       @@color_codes.each do |color, value|
+  #             color_method = %Q{
+  #               def #{color}
+  #                     return "\e[#{value}m" + self + "\e[39m"
+  #               end
+  #                 }
+  #     class_eval(color_method)
+  #       end
+  #   end
   String.create_colors
 end
 
