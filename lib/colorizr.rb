@@ -14,7 +14,7 @@ end
   def self.create_colors
     @colors.each do |key, value|
       self.send(:define_method, "#{key}") do
-        "\e[#{value}m#{key}\e[0m"
+        "\e[#{value}m#{self}\e[0m"
       end
     end
         
